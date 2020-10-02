@@ -1,7 +1,7 @@
 Tic-Tac-Toe
 ===========
 
-Version 1.0.1 - Thu 23 Dec 2020
+Version 1.0.1 - Thu 23 Jul 2020
 
 by Nemo Petrovic  
 <https://github.com/JimmyLongbrow/tic-tac-toe/blob/master/index.html>
@@ -16,6 +16,11 @@ Nemo Petrovic's Tic-Tac-Toe global game has come to light in the latest "Winter 
 
 Installation and Requirements
 -----------------------------
+
+Click and Play: 
+# https://jimmylongbrow.github.io/tic-tac-toe-winter-edition/
+
+OR
 
 Tic-Tac-Toe works with Mac/PC and any browser.
 
