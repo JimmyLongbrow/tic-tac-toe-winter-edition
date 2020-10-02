@@ -4,7 +4,7 @@ Tic-Tac-Toe
 Version 1.0.1 - Thu 23 Jul 2020
 
 by Nemo Petrovic  
-<https://github.com/JimmyLongbrow/tic-tac-toe/blob/master/index.html>
+<https://github.com/JimmyLongbrow/tic-tac-toe-winter-edition>
 
 
 Introduction
@@ -45,45 +45,45 @@ Project Description
 
 The Project consists of 8 main sections;
 
-1.  //START;
+1.  START;
     Fairly basic structure consists of a document ready function that serves as the main      
     body of the project and 4 variables for the player/ai/gamestatus/and move counter.
 
 
 
-2.  //ID COLLECTION FUNCTION & DEBUG DOUBLE CLICK / GAME CONTINUITY;
+2.  ID COLLECTION FUNCTION & DEBUG DOUBLE CLICK / GAME CONTINUITY;
     This is where the Box Click Function is formed and Contents are stored so that
     The cpu can keep track of when the game is finished and prevents players from
     Double-Clicking on the same box.
 
 
-3.  //GAME COUNTER/CLICK & PLAYER DATA COLLECTION/AND BOX VALUES PUSH INTO ARRAY
+3.  GAME COUNTER/CLICK & PLAYER DATA COLLECTION/AND BOX VALUES PUSH INTO ARRAY
     This section counts the Game in index form, needed to trigger Draw Alert.
     It also shares data from id and inner html to the player turn and box click
     functions above. Finally pushes the inner html and box division into the Box Values
     Array in order to notify the cpu if the string is empty.    
 
 
-4.  //RESET FUNCTION
+4.  RESET FUNCTION
     This is where the Play Again Button is connected from the reset division and the reset
     Function is structured. We also add player Turn X, game complete false, and game
     Back to zero so it can properly restart.
 
 
-5.  //OUTSIDE OF MAIN FUNCTION & WINNING COMBOS
+5.  OUTSIDE OF MAIN FUNCTION & WINNING COMBOS
     A getRandom Math.floor loop is coded here along with an array of 8 arrays of winning
     index combinations.
 
 
-6.  //CHECK WINNING COMBOS
+6.  CHECK WINNING COMBOS
     A for of loop within a function is created here to go through the winning combos
     In order to notify the cpu which a player has won.
 
-7.  //WIN OR DRAW NOTIFICATION
+7.  WIN OR DRAW NOTIFICATION
     If and an if else within a function is then created to alert the players whether if
     Someone won or if its a draw.
 
-8.  //AI CPU "O"
+8.  AI CPU "O"
     48 winning and defending AI combinations are coded here along with triggering a random
     Move if all else fails. This is also the are that's let the cpu know which letter goes
     next.
